@@ -5,7 +5,7 @@
     <AssemblyName>System.ComponentModel.Annotations.Validation.TypePropertyProvider</AssemblyName>
     <RootNamespace>System.ComponentModel.Annotations.Validation.TypePropertyProvider</RootNamespace>
     <Product>System.ComponentModel.Annotations.Validation</Product>
-    <PackageId>Sуstem.ComponentModel.Annotations.Validation.TypePropertyProvider</PackageId>
+    <PackageId>ComponentModel.Annotations.Validation.TypePropertyProvider</PackageId>
   </PropertyGroup>
 
 </Project>

@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>System.ComponentModel.Annotations.Validation.PropertyProvider</AssemblyName>
     <Product>System.ComponentModel.Annotations.Validation</Product>
-    <PackageId>Sуstem.ComponentModel.Annotations.Validation.PropertyProvider</PackageId>
+    <PackageId>ComponentModel.Annotations.Validation.PropertyProvider</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

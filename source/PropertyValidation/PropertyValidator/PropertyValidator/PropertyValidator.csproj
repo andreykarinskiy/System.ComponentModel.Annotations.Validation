@@ -5,7 +5,7 @@
     <AssemblyName>System.ComponentModel.Annotations.Validation.PropertyValidator</AssemblyName>
     <RootNamespace>System.ComponentModel.Annotations.Validation.PropertyValidator</RootNamespace>
     <Product>System.ComponentModel.Annotations.Validation</Product>
-    <PackageId>Sуstem.ComponentModel.Annotations.Validation.PropertyValidator</PackageId>
+    <PackageId>ComponentModel.Annotations.Validation.PropertyValidator</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

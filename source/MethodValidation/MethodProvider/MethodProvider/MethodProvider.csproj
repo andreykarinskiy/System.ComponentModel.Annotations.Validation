@@ -5,7 +5,7 @@
     <AssemblyName>System.ComponentModel.Annotations.Validation.MethodProvider</AssemblyName>
     <RootNamespace>System.ComponentModel.Annotations.Validation.MethodProvider</RootNamespace>
     <Product>System.ComponentModel.Annotations.Validation</Product>
-    <PackageId>Sуstem.ComponentModel.Annotations.Validation.MethodProvider</PackageId>
+    <PackageId>ComponentModel.Annotations.Validation.MethodProvider</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
