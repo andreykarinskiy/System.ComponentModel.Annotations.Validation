@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>System.ComponentModel.Annotations.Validation.PropertyValidator</AssemblyName>
+    <RootNamespace>System.ComponentModel.Annotations.Validation.PropertyValidator</RootNamespace>
+    <Product>System.ComponentModel.Annotations.Validation</Product>
+    <PackageId>Sуstem.ComponentModel.Annotations.Validation.PropertyValidator</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\PropertyProvider\PropertyProvider\PropertyProvider.csproj" />
+  </ItemGroup>
+
+</Project>

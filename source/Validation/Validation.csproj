@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Sуstem.ComponentModel.Annotations.Validation</AssemblyName>
+    <RootNamespace>Sуstem.ComponentModel.Annotations.Validation</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>ComponentModel.Annotations.Validation</PackageId>
+    <RepositoryType>GIT</RepositoryType>
+    <RepositoryUrl>https://github.com/andreykarinskiy/System.ComponentModel.Annotations.Validation.git</RepositoryUrl>
+    <PackageLicenseExpression />
+    <Title>Sуstem.ComponentModel.Annotations.Validation</Title>
+  </PropertyGroup>
+
+  <!-- Include NuGet package metadata -->
+  <Import Project="..\..\package.prop" />
+  
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\MethodValidation\MethodProvider\MethodProvider\MethodProvider.csproj" />
+    <ProjectReference Include="..\MethodValidation\MethodProvider\TypeMethodProvider\TypeMethodProvider.csproj" />
+    <ProjectReference Include="..\MethodValidation\MethodValidator\MethodValidator\MethodValidator.csproj" />
+    <ProjectReference Include="..\PropertyValidation\PropertyProvider\PropertyProvider\PropertyProvider.csproj" />
+    <ProjectReference Include="..\PropertyValidation\PropertyProvider\TypePropertyProvider\TypePropertyProvider.csproj" />
+    <ProjectReference Include="..\PropertyValidation\PropertyValidator\PropertyValidator\PropertyValidator.csproj" />
+  </ItemGroup>
+  
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+
+  	<VersionSuffix>alpha</VersionSuffix>
+  	
+    <ChangelogFile>$(MSBuildThisFileDirectory)\changelog.md</ChangelogFile>
+    <DescriptionFile>$(MSBuildThisFileDirectory)\description.md</DescriptionFile>
+
+    <Authors>Andrey Karinskiy</Authors>
+    <Summary>Extension of System.ComponentModel validation engine. Supports validation of properties and invariants for object graphs.</Summary>
+    <Description>$([System.IO.File]::ReadAllText($(DescriptionFile)))</Description>
+    <Copyright>© 2019 Andrey Karinskiy. All rights reserved.</Copyright>
+    <PackageTags>validation;validator</PackageTags>
+    
+    <PackageReleaseNotes>$([System.IO.File]::ReadAllText($(ChangelogFile)))</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/andreykarinskiy/System.ComponentModel.Annotations.Validation</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIconUrl>https://raw.githubusercontent.com/andreykarinskiy/System.ComponentModel.Annotations.Validation/master/icon.png</PackageIconUrl>
+
+  </PropertyGroup>
+</Project>

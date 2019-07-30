@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\source\MethodValidation\MethodProvider\MethodProvider\MethodProvider.csproj" />
+    <ProjectReference Include="..\..\..\source\MethodValidation\MethodProvider\TypeMethodProvider\TypeMethodProvider.csproj" />
+    <ProjectReference Include="..\..\..\source\MethodValidation\MethodValidator\MethodValidator\MethodValidator.csproj" />
+    <ProjectReference Include="..\..\..\source\PropertyValidation\PropertyProvider\PropertyProvider\PropertyProvider.csproj" />
+    <ProjectReference Include="..\..\..\source\PropertyValidation\PropertyProvider\TypePropertyProvider\TypePropertyProvider.csproj" />
+    <ProjectReference Include="..\..\..\source\PropertyValidation\PropertyValidator\PropertyValidator\PropertyValidator.csproj" />
+    <ProjectReference Include="..\..\..\source\Validation\Validation.csproj" />
+  </ItemGroup>
+
+</Project>

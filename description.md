@@ -1,0 +1,1 @@
+System.ComponentModel.Annotations.Validation is a extension of System.ComponentModel validation engine. Supports validation of properties and invariants for object graphs.

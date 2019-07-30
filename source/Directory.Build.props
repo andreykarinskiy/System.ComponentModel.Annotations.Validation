@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Authors>Andrey Karinskiy</Authors>
+    <Copyright>© 2019 A.Karinskiy</Copyright>  
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="!$(MSBuildProjectName.EndsWith('.Tests'))">
+    <DocumentationFile>$(TargetDir)\$(MSBuildProjectName).xml</DocumentationFile>
+    <CodeAnalysisRuleSet>$(SolutionDir)default.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="$(MSBuildProjectName.EndsWith('.Tests'))">
+  	<NoWarn>IDE0051;IDE0060;CA1819</NoWarn>
+  </PropertyGroup>
+
+</Project>

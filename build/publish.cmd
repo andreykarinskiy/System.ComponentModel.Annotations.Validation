@@ -1,0 +1,1 @@
+CALL build\publish-local.cmd
