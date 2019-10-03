@@ -74,7 +74,7 @@ public class Engine
 			yield return new Fail("4-cylinder engine cannot cost less than 1500!");
 		}
 
-		if (NumOfCylinders > 12)
+		if (NumOfCylinders >= 12)
 		{
 			yield return new Fail("We do not serve tanks!");
 		}
