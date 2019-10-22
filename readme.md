@@ -67,7 +67,7 @@ public class Engine
 	}
 
 	[Invariant("The cost depends on the number of cylinders")]
-    private IEnumerable<ValidationResult> CostDependsOnNumberOfCylinders()
+        private IEnumerable<ValidationResult> CostDependsOnNumberOfCylinders()
 	{
 		if (NumOfCylinders == 4 && Cost < 1500)
 		{
